@@ -3,7 +3,7 @@ import tensorflow as tf
 title = 'mnist mlp CPU'
 mode = 'train'  # 'train', 'test', 'restart', 'debug', 'export', 'input_train', 'input_test', 'speed_net'
 seed = None
-gpu_list = []
+gpu_list = [0]
 batch_size = 128
 
 dataset = 'mnist'  # 'mnist', 'fashion'
